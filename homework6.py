@@ -1,8 +1,7 @@
 my_dict= {"A": 1111, "B": 2222, "C": 3333}
 print(my_dict)
-print(my_dict["A"])
-my_dict["D"] = 4444
-print(my_dict["D"])
+print(my_dict["B"])
+print(my_dict.get("D"))
 my_dict.update({"I": 5555, "F": 6666})
 num= my_dict.pop("A")
 print(num)
